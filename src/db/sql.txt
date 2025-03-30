@@ -1,0 +1,5 @@
+sqlite3 '.\Portafolio Projects\Series_api_DB\src\db\my_database.sqlite'
+select * from series_db limit 5;
+SELECT AVG(runtime) FROM series_db;
+SELECT show_genres,COUNT(show_genres) FROM series_db group by show_genres;
+SELECT DISTINCT(url) from series_db;
